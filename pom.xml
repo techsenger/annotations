@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.techsenger.maven-root</groupId>
+        <artifactId>maven-root</artifactId>
+        <version>1.5.0</version>
+    </parent>
+
+    <groupId>com.techsenger.annotations</groupId>
+    <artifactId>annotations</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>Annotations</name>
+    <description>Techsenger annotations</description>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <url>https://github.com/techsenger/annotations</url>
+
+    <scm>
+        <connection>scm:git:https://github.com/techsenger/annotations.git</connection>
+        <developerConnection>scm:git:https://github.com/techsenger/annotations.git</developerConnection>
+        <url>https://github.com/techsenger/annotations</url>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/techsenger/annotations/issues</url>
+    </issueManagement>
+
+    <developers>
+        <developer>
+            <id>pcastornii</id>
+            <name>Pavel Castornii</name>
+        </developer>
+    </developers>
+</project>
