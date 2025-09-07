@@ -4,7 +4,7 @@
     <parent>
         <groupId>com.techsenger.maven-root</groupId>
         <artifactId>maven-root</artifactId>
-        <version>1.5.0</version>
+        <version>1.6.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.techsenger.annotations</groupId>
@@ -40,4 +40,18 @@
             <name>Pavel Castornii</name>
         </developer>
     </developers>
+
+    <repositories>
+        <repository>
+            <id>repsy-snapshots</id>
+            <url>https://repo.repsy.io/mvn/techsenger/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
